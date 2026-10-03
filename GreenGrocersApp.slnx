@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/GreenGrocersApp.Application/GreenGrocersApp.Application.csproj" />
+  <Project Path="src/GreenGrocersApp.Domain/GreenGrocersApp.Domain.csproj" />
+  <Project Path="src/GreenGrocersApp.Infrastructure/GreenGrocersApp.Infrastructure.csproj" />
+  <Project Path="src/GreenGrocersApp.WebApi/GreenGrocersApp.WebApi.csproj" />
+</Solution>
