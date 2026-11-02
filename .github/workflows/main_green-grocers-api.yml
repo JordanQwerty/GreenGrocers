@@ -7,6 +7,13 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'src/GreenGrocersApp.WebApi/**'
+      - 'src/GreenGrocersApp.Application/**'
+      - 'src/GreenGrocersApp.Infrastructure/**'
+      - 'src/GreenGrocersApp.Domain/**'
+      - 'GreenGrocersApp.slnx'
+      - '.github/workflows/main_green-grocers-api.yml'
   workflow_dispatch:
 
 jobs:
