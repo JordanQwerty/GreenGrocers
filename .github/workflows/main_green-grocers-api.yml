@@ -52,4 +52,4 @@ jobs:
           app-name: 'green-grocers-api'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_38E0C7091C5B434EABC18247F644DD13 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPI_PUBLISH_PROFILE }}
